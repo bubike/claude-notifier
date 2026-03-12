@@ -1,0 +1,16 @@
+{
+  "name": "claude-notifier",
+  "version": "1.0.0",
+  "description": "Callable microservice that triggers a notification in MacOS",
+  "license": "MIT",
+  "author": "erikbubik@gmail.com",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "serve": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
